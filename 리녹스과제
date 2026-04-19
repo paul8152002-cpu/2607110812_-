@@ -58,19 +58,14 @@ sudo chmod 770 /projectA
 # =============================================
 
 # 검증: id와 ls -l 명령어로 완벽함 증명.
-# /projectA 권한 확인.
-ls -ld /projectA
-# 팀원 그룹 소속 확인.
-id member1
-id member2
 
 # =============================================
 
 echo "=== 팀원 그룹 소속 확인 ==="
 # id 명령어로 각 유저가 projectA 그룹에 잘 들어갔는지 확인합니다.
 # 출력 결과에 groups=...(projectA) 가 보이면 성공입닠다!
-id alice
-id bob
+id member1
+id member2
 
 echo ""
 echo "=== /projectA 디렉토리 권한 확인 ==="
