@@ -17,10 +17,10 @@ sudo groupadd projectA
 # -----------------------------------------------
 
 # useradd로 새 사용자를 만들었으요.
-# -m 옵션은 홈 디렉토리(/home/alice 등)를 자동으로 만들어주고,
+# -m 옵션은 홈 디렉토리(/home/member1 등)를 자동으로 만들어주고,
 # -G projectA 옵션은 생성과 동시에 projectA 그룹에 넣어줬어요.
-sudo useradd -m -G projectA alice
-sudo useradd -m -G projectA bob
+sudo useradd -m -G projectA member1
+sudo useradd -m -G projectA member2
 
 # -----------------------------------------------
 
